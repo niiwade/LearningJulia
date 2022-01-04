@@ -64,3 +64,10 @@ pop!(fib)
 println(fib)
 
 
+## we can construct multi-dimensional Arrays
+
+ps4_games= [["Crash", "Geshin Impact"], ["Doom", "akuja", "Rive"]]
+println(ps4_games)
+
+nitendo = [[1,3,3,2],[34,34323,3,23,34],[434,3432,23,342,3] ]
+println(nitendo)
