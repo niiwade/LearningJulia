@@ -5,13 +5,23 @@
 ##end
 
  ## wriite a while loop to increase n
+    ## until n is greater than 10
+    ## print n
+    ## n = n + 1
 
-n = 0
-while n < 10
-    n += 1
-    println(n)
+global m = 0
+while m < 10
+    m += 1
+    println(m)
 end
 
+my_games = ["mario", "metroid", "zelda", "pokemon"]
+
+i = 1
+while i < my_games.length
+    println(my_games[i])
+    i += 1
+end
 
 
  
