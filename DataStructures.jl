@@ -76,3 +76,6 @@ println(nitendo)
 
 rand(3,3)
 println(rand(3,3))
+
+rand(3,3,10)
+println(rand(3,3,3))
