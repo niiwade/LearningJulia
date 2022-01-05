@@ -71,3 +71,8 @@ println(ps4_games)
 
 nitendo = [[1,3,3,2],[34,34323,3,23,34],[434,3432,23,342,3] ]
 println(nitendo)
+
+## using the rand function we can create 2 or 3d arrays
+
+rand(3,3)
+println(rand(3,3))
