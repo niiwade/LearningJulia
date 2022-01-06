@@ -9,18 +9,20 @@
     ## print n
     ## n = n + 1
 
-global m = 0
-while m < 10
-    m += 1
+ m = 0
+while  m < 10
+    global m += 1
     println(m)
 end
+
 
 my_games = ["mario", "metroid", "zelda", "pokemon"]
 
 i = 1
-while i < my_games.length
-    println(my_games[i])
-    i += 1
+while  i <= length(my_games)
+    games = my_games[i]
+    println("New $games,I love them") 
+      global i += 1
 end
 
 
