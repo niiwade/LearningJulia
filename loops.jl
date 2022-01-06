@@ -26,4 +26,24 @@ while  i <= length(my_games)
 end
 
 
+
+## looping through a list and you can either replace in with = 
+for n in 1:10
+    println(n)
+end
+
+my_console = ["PS4", "XBOX", "Wii", "N64"]
+
+for console = my_console
+    println("I collect $console")
+end
  
+
+## creating an addition loop
+
+## create a 5 * 5 matrix
+
+a , b = 5,5
+Z = zeros(a,b)
+
+println(Z)
