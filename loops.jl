@@ -55,3 +55,14 @@ for i  = 1:a
 end
 
 print(Z)
+
+
+## create a 5 * 5 matrix by condensing the above loop
+
+E = zeros(a,b)
+
+for i = 1:a , e = 1:b
+    E[i,e] = i + e
+end
+
+print(E)
