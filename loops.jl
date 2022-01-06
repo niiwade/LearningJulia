@@ -47,3 +47,11 @@ a , b = 5,5
 Z = zeros(a,b)
 
 println(Z)
+
+for i  = 1:a
+    for e = 1:b
+        Z[i,e] = i + e
+    end
+end
+
+print(Z)
