@@ -66,3 +66,9 @@ for i = 1:a , e = 1:b
 end
 
 print(E)
+
+
+## the best way to create this addition tabe is create an array comprehension
+
+C = [ [i,e] for i in 1:a for e in 1:b]
+println(C)
