@@ -72,3 +72,11 @@ print(E)
 
 C = [ [i,e] for i in 1:a for e in 1:b]
 println(C)
+
+
+## an embedded array comprehension in a for loop
+
+for n = 1:10
+    A = [i + e for i in 1:n for e in 1:n]
+    println(A)
+end
