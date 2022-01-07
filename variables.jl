@@ -9,3 +9,17 @@ s = 2
 s =  "Hello World"
 
 println(s)
+
+x = 2
+x = x + 1
+
+x += 1
+
+len = 1
+wid = 3
+area = len * wid
+
+
+## varinfo() gives you a list of all the varibales used and how much space each uses
+
+varinfo()

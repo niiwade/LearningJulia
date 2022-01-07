@@ -84,3 +84,52 @@ false == 0
 false + true
 
 true + true
+
+## === identity test is used to determine the datatype of variables
+a =3
+b = 3.23
+
+a === b
+
+
+
+typeof(-1 // 2)
+
+typeof(9 // 2)
+
+pi
+
+typeof(pi)
+
+## best way to write numbers
+
+typeof(1_000_000)
+
+## Builtin Mtaths functions in Julia
+
+sqrt(3)
+
+cbrt(3)
+
+convert(Int64, 33.0)
+
+iseven(2)
+
+isodd(34)
+
+rem(5,3)
+
+round(3.2122, digits=3)
+
+round(3.223, digits=1, RoundUp)
+
+round(2.234345, digits=2, RoundDown)
+
+
+## you can have unicode in julia
+
+α
+β
+ϐ
+γ
+δ
