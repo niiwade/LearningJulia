@@ -80,3 +80,7 @@ false || false
 true == 1
 
 false == 0
+
+false + true
+
+true + true
