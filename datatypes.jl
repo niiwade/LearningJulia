@@ -49,3 +49,34 @@ quotient = 10 / 3
 power = 2 ^ 3
 
 modulus = 10 % 3
+
+##operands in julia
+
+ ## == equals
+
+1 == 1
+
+ ## !== not equals
+
+ 1 !== 1
+
+ ## AND  &&  returns true if both sides are true  otherwise it returns false
+
+true && true
+
+false && false
+
+true && false
+
+ ## OR || returns true if either sides is true  otherwise it returns false
+
+true || true
+
+false || true
+
+false || false
+
+ ## Julia actually has numerical representation for booleans value
+true == 1
+
+false == 0
