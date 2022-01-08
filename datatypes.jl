@@ -105,7 +105,7 @@ typeof(pi)
 
 typeof(1_000_000)
 
-## Builtin Mtaths functions in Julia
+## Builtin Maths functions in Julia
 
 sqrt(3)
 
@@ -133,3 +133,25 @@ round(2.234345, digits=2, RoundDown)
 ϐ
 γ
 δ
+θ
+σ
+ℯ
+
+E = "mc²"
+
+H₂0 = "water"
+
+√4
+
+∛8
+
+
+## to get a division answer without having a float answer
+
+ div(5,2)
+
+
+## using unicode as variables
+🐶
+💿
+👍
