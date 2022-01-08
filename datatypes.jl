@@ -205,3 +205,13 @@ chicken = "3.4"
 ("what is your name"); text = readline()
 
 ## converting datatype using the parse fun in Julia
+
+ze =3344
+
+num = parse(Int64, text)
+
+ze + ze
+
+typeof(ze )
+
+## you can create a datatype called symbol in Julia
