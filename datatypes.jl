@@ -155,3 +155,40 @@ H₂0 = "water"
 🐶
 💿
 👍
+
+## strings in Julia
+
+swet = "Julia is beauty & "
+typeof(swet)
+
+swet2 = 213
+typeof(swet2)
+
+## how to print a new line
+"line1 \nline2 \nline3"
+
+##how to repeat a variable X number of time
+snowman = "⛄"
+
+repeat(snowman, 20)
+
+
+## how to concatenate a string
+
+string(swet, swet2)
+
+
+## string interpolation
+
+eatry= "super foods"
+fried = "1.2"
+soda = "0.2"
+chicken = "3.4"
+
+("I love the $eatry")
+
+("My total = $(fried) dollars at the $eatry")
+
+## using commma's for string interpolation
+
+("my total is ", fried, "dollars")
