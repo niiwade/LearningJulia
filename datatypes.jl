@@ -192,3 +192,16 @@ chicken = "3.4"
 ## using commma's for string interpolation
 
 ("my total is ", fried, "dollars")
+
+
+## rendering currency
+
+("€100")
+
+"¥200"
+
+## Allowing User input
+
+("what is your name"); text = readline()
+
+## converting datatype using the parse fun in Julia
