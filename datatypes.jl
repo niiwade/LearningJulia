@@ -227,3 +227,10 @@ typeof(false)
 ##if Julia cant figure out the datatype, it uses the datatype any
 
 typeof(Any)
+
+##you can print different colors using a function called printstyled()
+
+
+name = "wade"
+
+printstyled(name, bold=true, color =:blue)
