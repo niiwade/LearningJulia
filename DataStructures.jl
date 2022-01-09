@@ -33,7 +33,7 @@ println(fav_food[2])
 
 
 ## Arrays
-## Arrays are muttable and subject to change and they contain ordered sequence  of elements 
+## Arrays are muttable and subject to change and they contain ordered sequence  of elements
 my_games =  ["COD","Fortnight", "Legend of Zelda"]
 println(my_games)
 
@@ -43,14 +43,14 @@ println(fib)
 mix_fib = [1,2,3, "Xelad", 2.3]
 println(mix_fib)
 
-## we can index array 
+## we can index array
 
 println(my_games[2])
 println(fib[2])
 println(mix_fib[4])
 
 
-## since we can update elements 
+## since we can update elements
 my_games[3]="NBA2k"
 println(my_games)
 
@@ -79,3 +79,8 @@ println(rand(3,3))
 
 rand(3,3,10)
 println(rand(3,3,3))
+
+
+## writing a Dictionary in Julia
+
+Dict("will"=>12, "wade"=>34)
