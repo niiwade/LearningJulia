@@ -215,3 +215,10 @@ ze + ze
 typeof(ze )
 
 ## you can create a datatype called symbol in Julia
+
+
+##boolean
+
+typeof(true)
+
+typeof(false)
