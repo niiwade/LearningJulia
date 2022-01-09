@@ -222,3 +222,8 @@ typeof(ze )
 typeof(true)
 
 typeof(false)
+
+
+##if Julia cant figure out the datatype, it uses the datatype any
+
+typeof(Any)
