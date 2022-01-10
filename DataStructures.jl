@@ -1,6 +1,7 @@
 ## Dictionaries
 ## a good example of storing data in  a Dictionaries is a contact list where we associate names to cell numbers, key value pairs
-contact_list = Dict("Nii" => "03221343", "Wade"=> "34342334")
+contact_list = Dict("Nii" => "03221343", "Wade"=> 34342334)
+contact_origin = Dict("Ghana"=> 12, "Nigeria"=>222)
 println(contact_list)
 
 ## to add another entry to the Dictionary
@@ -14,6 +15,20 @@ println(contact_list)
 ## to delete a key value pair in the Dictionary
 pop!(contact_list, "Nii")
 println(contact_list)
+
+## to insert a value in the dictionary
+push!(contact_list, "Jose"=>"123")
+
+## list all the keys in your Dictionary
+keys(contact_list)
+
+## list all the values in your Dictionary
+value(contact_list)
+
+
+## merge different Dictionary into one dictionary
+merge(contact_list, contact_origin)
+
 
 ## Unlike tuples and arrays , Dictionaries are not ordered and we cant index into them
 
@@ -84,3 +99,8 @@ println(rand(3,3,3))
 ## writing a Dictionary in Julia
 
 Dict("will"=>12, "wade"=>34)
+
+
+
+
+names = Dict("James":12, "Prince":22, )
