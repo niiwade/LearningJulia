@@ -50,6 +50,10 @@ fav_food[end]
 ## to dsiplay the index location and end of a tuple
  fav_food[2:end]
 
+## you can also to display a range of values
+
+fav_food[1:2]
+
 
 
 
