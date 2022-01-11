@@ -53,8 +53,13 @@ fav_food[end]
 ## you can also to display a range of values
 
 fav_food[1:2]
+t
+## Julia is designed to use one based indexing
+fav_drink = ("Coke","Malt", "Energy Drink", 21)
 
-
+## you can also concatenate tuples
+Menu = (fav_food,fav_drink)
+typeof(Menu)
 
 
 ## Arrays
