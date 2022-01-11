@@ -44,6 +44,12 @@ println(fav_food)
 ## how to index and find an element , Julia is one indexed rather than zero indexed
 println(fav_food[2])
 
+## to display the end of the tuple
+fav_food[end]
+
+## to dsiplay the index location and end of a tuple
+ fav_food[2:end]
+
 
 
 
