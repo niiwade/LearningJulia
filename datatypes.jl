@@ -22,7 +22,7 @@ CantDrive = false
 
 
 ## Julia lets you know the type of a variable out of the box
-my_answer =  23
+my_answer =  222
 typeof(my_answer)
 
 my_pi = 3.141592653589793
